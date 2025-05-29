@@ -24,6 +24,7 @@ import (
 )
 
 //go:embed slsa_provenance_v0.2.json
+//add comment to test pr
 var slsa_provenance_v0_2_json string
 
 var SLSA_Provenance_v0_2 *jsonschema.Schema
